@@ -31,6 +31,8 @@ If you specify 0 for a weekly, monthly or yearly Retention, a backup for the nex
 ## Installation
 
 ### Via Terraform
+git clone git@github.com:unimbekar/aws-lambda-backup.git
+
 ```sh
 cd terraform
 ./create_zip.sh     ## Or:> powershell ./create_zip.ps1
