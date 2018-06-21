@@ -1,3 +1,9 @@
+provider "aws" {
+  version = "~> 1.2"
+
+  region     = "us-east-1"
+}
+
 resource "aws_iam_role" "lambda_ebs_backup" {
     name = "lambda_ebs_backup"
 
